@@ -22,15 +22,21 @@ Tools: Git, GitHub, Postman.
 
 🚀 Features
 User Authentication: Secure login and registration with JWT-based authentication.
+
 Vote Casting: Users can vote for their preferred candidates, with each vote securely recorded in the database.
+
 Real-Time Vote Counting: The application provides real-time vote tallying and displays the results.
+
 Admin Management: Admins can manage candidates and monitor voting progress.
+
 Notification System: SMS and email notifications for login attempts and other critical actions.
 
 
 📂 Project Structure
 Routes: Handles user actions like registration, login, voting, and result viewing.
+
 Controllers: Business logic for user authentication, voting, and admin tasks.
+
 Models: Defines the data structure for users, candidates, and votes.
 
 
