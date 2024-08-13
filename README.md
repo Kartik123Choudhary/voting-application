@@ -9,11 +9,15 @@ This Voting Application enables users to register, log in, and cast their votes 
 
 
 🛠️ Built With
-Backend: Node.js, Express.js
-Database: Oracle Database
-Authentication: Passport.js, JWT tokens
-Frontend: HTML, CSS, JavaScript
-Tools: Git, GitHub, Postman
+Backend: Node.js, Express.js.
+
+Database: Oracle Database.
+
+Authentication: Passport.js, JWT tokens.
+
+Frontend: HTML, CSS, JavaScript.
+
+Tools: Git, GitHub, Postman.
 
 
 🚀 Features
