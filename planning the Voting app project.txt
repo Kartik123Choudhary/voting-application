@@ -1,0 +1,64 @@
+// Voting application requirements :
+
+1. User should be able to Sign in or Sign Up
+2. A functionality where the candidates can give the votes to the parties:
+3. We can see the list of the candidates
+4. one person can vote only one time
+5. user should be able to see the counting of the votes ( basically the user can see which party is leading and how many votes are given to that party)
+6. user data must contain their one unique government id proof named : aadhar card ( means for giving the vote the user must be Indian and he should be having his aadhar card which will basically show that
+he is eligible to vote and he is Indian citizen , along with that he should also use username and password).
+7. there should an admin which will handle everything like the table of candidate and he can perform any CRUD operations on the database for the candidates and he cant vote at all.
+8. user can change their password.
+9. We have also included the SMS And email functionality in our code, that whenever we tried to login,
+we will get a notification and an email.
+10. this program also includes tokens ( JWT token concept ) and there will also be a option for the logout.
+
+
+---------------------------------------------------------------------------------------------------
+
+What are the routes that we will be using ?
+
+1. User Authentication:
+
+  /signup : POST - Create a new user account.
+  /login : POST - Login to the application (with the help of aadhar card number and password).
+
+2. Voting:
+     /candidates : GET - Get the list of the candidates who are standing in the elections.
+     /vote/:candidateId: POST - Vote for a specific candidate.
+
+3. Vote Counts:
+
+   /votes/counts: GET - Get the list of the Candidates sorted by their vote counts.
+
+4. User Profile:
+
+    /profile: GET - Get the user's profile information.
+    /profile/password: PUT - Change the user's password.
+
+5. Admin Candiadte Management :
+
+    /candidates: POST - Create a new candidate.
+    /candidates/:candidateId: GET - Get the details of a specific candidate.
+    /candidates/:candidateId: PUT - Update the details of a specific candidate.
+    /candidates/:candidateId: DELETE - Delete a candiadte from the list.
+
+
+--------------------------------------------------------------------------------------------------
+
+ Now we have also created a flowchart for the entire process of what is actually happening in the
+ Voting application in ( draw.io ).
+
+ //Diagram for the complete map :
+
+ /voting-app
+  |-- app.js
+  |-- config.js
+  |-- database.js
+  |-- passportConfig.js
+  |-- routes.js
+  |-- notification.js
+  |-- package.json
+
+
+
