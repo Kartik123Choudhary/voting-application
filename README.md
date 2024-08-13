@@ -41,26 +41,6 @@ Models: Defines the data structure for users, candidates, and votes.
 
 
 
-📝 How to Run the Project
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/voting-app.git
-Install dependencies:
-bash
-Copy code
-cd voting-app
-npm install
-Set up the Oracle Database:
-Ensure you have an Oracle Database instance running and update the database.js file with your connection details.
-Run the application:
-bash
-Copy code
-npm start
-Access the application:
-Open your browser and go to http://localhost:3000 to interact with the app.
-
-
 🎯 Why This Voting Application?
 This project was developed to address the need for a secure and efficient online voting system. It reflects best practices in web development, security, and user experience design. I aimed to create a robust platform that can be adapted for various voting needs. This project showcases my passion towards Backend development. 
 
